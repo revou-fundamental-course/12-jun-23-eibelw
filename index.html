@@ -1,0 +1,41 @@
+<html>
+<head>
+    <title> Mini Project Konversi Suhu</title>
+    
+    <link rel="stylesheet" href="style.css">
+    <!-- Menyambungkan dengan file css -->
+</head>
+
+<body>
+    <!-- Memberi style sesuai class -->
+    <div class="heading"> 
+        <header>
+            <h1> Temperature Coversion</h1>
+         </header>
+    </div>
+
+    <div class="calculator">
+        <section>
+         <h2> Celcius (°C) </h2>
+         <textarea id="celcius" placeholder="Masukan angka celcius"></textarea> 
+   
+         <h2> Fahrenheit (°F) </h2>
+         <textarea id="fahrenheit" placeholder="Masukan angka fahrenheit"></textarea>
+        
+         <p> 
+            <button class="b-button" onclick="convert()">Convert (°C) to (°F)</button>
+            <button class="b-button" onclick="reset()">Reset All</button>
+            <button class="b-button" onclick="reverse()">Reverse (°F) to (°C)</button>
+         </p>
+    
+         <h2>Explanation</h2>
+            <textarea id="exp" placeholder="Proses hitungan" readonly ></textarea>
+        
+        </section>
+    </div> 
+
+  <script src="script.js"></script> 
+  <!-- Menyambungkan dengan file javascript -->
+
+</body>
+</html>
